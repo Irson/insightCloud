@@ -1,8 +1,0 @@
-# 数据源
-spring:
-  datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/insightCloud?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
