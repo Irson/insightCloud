@@ -24,7 +24,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: bus-refresh,bus-env
   endpoint:
     bus-refresh:
       enabled: true
